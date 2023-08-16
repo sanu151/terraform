@@ -1,0 +1,57 @@
+
+──(supriyo㉿supriyo)-[~/My_terraform]
+└─$ cd ~/.ssh      
+                                                                                
+┌──(supriyo㉿supriyo)-[~/.ssh]
+└─$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/supriyo/.ssh/id_rsa): 
+/home/supriyo/.ssh/id_rsa already exists.
+Overwrite (y/n)? 
+                                                                                
+┌──(supriyo㉿supriyo)-[~/.ssh]
+└─$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/supriyo/.ssh/id_rsa): 
+/home/supriyo/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/supriyo/.ssh/id_rsa
+Your public key has been saved in /home/supriyo/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:yG1ZDgBSVfWdC6+d7/dsA1p42T7LImg+YS0mf5s0GBw supriyo@supriyo
+The key's randomart image is:
++---[RSA 3072]----+
+|  ..ooo....      |
+|   .   .   . . . |
+|        .E. o o  |
+|     . o.=.  o . |
+|      o Soo . =  |
+|       o =oo B o |
+|        =.+o= =  |
+|         =.+o..*o|
+|        o.ooo .=@|
++----[SHA256]-----+
+                                                                                
+┌──(supriyo㉿supriyo)-[~/.ssh]
+└─$ cat ~/.ssh.id_rsa.pub
+cat: /home/supriyo/.ssh.id_rsa.pub: No such file or directory
+                                                                                
+┌──(supriyo㉿supriyo)-[~/.ssh]
+└─$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDKMvVAdownSXkwresu7VubBcFov8oxLDgdDbXz+di/IRXpoBjpoEzkEHFmWNQgECxaKASMXRBNim0770F6zBxpmvXmCZQQDIGH8tOApfwiFUO2MoiJ+h6tPs4Ike9JQLHEAMZYEJFKJbKTxkUEatbims83iUZKi3WieRbx9fs0dPJBY/kxV0JIp1F/A9sYe1EtnnxLZQUYho5wn5Fcm/mfsz9Dseb+EXZafVT7c9cBBP8fwOujcRyKiNjr9T+3+EIu7/MWZI5trNDQFxQIpC29JzuvAAvO1jfY/Zn22JeHunWBIHChhaAZR1+2Q16ufTcuhsPy6upJvn0/40pK/B8oebrUeLQ6vS3moCRImmt+yUBn8fd3WTX/rI99Q4hFyn3tAPVtG2GcsFVmgMEdr2iyfh65e6SfN8GMXVK8k7XR0RvsJcdnpjOpjNXmmCZHrMPZASAdtbgE4bPYw7deJuc5x/4PUI9/Lc0sUvgnhB33oOeUuz4o6L7pX0oZrr8OHzc= supriyo@supriyo
+                                                                                
+┌──(supriyo㉿supriyo)-[~/.ssh]
+└─$ cd ..                
+                                                                                                                                                                          
+┌──(supriyo㉿supriyo)-[~]
+└─$ cd My_terraform
+                                                                                                                                                                          
+┌──(supriyo㉿supriyo)-[~/My_terraform]
+└─$ git remote add terra git@github.com:sanu151/terraform.git    
+                                                                                                                                                                          
+┌──(supriyo㉿supriyo)-[~/My_terraform]
+└─$ git remote show                                          
+terra
+                                              
